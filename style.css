@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.stars {
+  position: absolute;
+}
+
+.hills {
+  position: absolute;
+  bottom: 0;
+}
+
+.hills img {
+  min-height: 150px;
+}
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background-color: hsl(235, 16%, 14%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.container h1 {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 54px;
+  font-weight: 700;
+  letter-spacing: 6.14px;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.countdown div {
+  margin: 10px;
+}
+
+.countdown p {
+  padding: 15px;
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 8px;
+  color: hsl(345, 95%, 68%);
+  font-size: 30px;
+}
+
+.container h3 {
+  margin-top: 15px;
+  color: hsl(237, 18%, 59%);
+  letter-spacing: 2px;
+  font-size: 7px;
+}
+
+.socials {
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 40px;
+  z-index: 999;
+  left: 50%;
+}
+
+.socials ul {
+  display: flex;
+}
+
+.socials ul li {
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .stars {
+    position: absolute;
+  }
+
+  .hills {
+    position: absolute;
+    bottom: 0;
+  }
+  body {
+    font-family: "Red Hat Text", sans-serif;
+    background-color: hsl(235, 16%, 14%);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+  }
+
+  .container h1 {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 104px;
+    font-weight: 700;
+    letter-spacing: 7.5px;
+  }
+
+  .countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .countdown div {
+    margin: 15px;
+  }
+
+  .countdown p {
+    padding: 25px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 8px;
+    color: hsl(345, 95%, 68%);
+    font-size: 45px;
+  }
+
+  .container h3 {
+    margin-top: 15px;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+
+  .socials {
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 80px;
+    z-index: 999;
+    left: 50%;
+  }
+
+  .socials ul {
+    display: flex;
+  }
+
+  .socials ul li {
+    margin: 0 20px;
+  }
+}
