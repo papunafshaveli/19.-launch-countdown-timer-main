@@ -92,6 +92,13 @@ body {
   margin: 0 20px;
 }
 
+.pinterest:hover,
+.facebook:hover,
+.instagram:hover {
+  border: 2px solid #fb5e84;
+  fill: #fb5e84;
+}
+
 @media screen and (min-width: 1440px) {
   * {
     margin: 0;
@@ -114,6 +121,11 @@ body {
   .hills {
     position: absolute;
     bottom: 0;
+  }
+
+  .hills img {
+    min-height: 150px;
+    width: 100vw;
   }
   body {
     font-family: "Red Hat Text", sans-serif;
@@ -178,5 +190,12 @@ body {
 
   .socials ul li {
     margin: 0 20px;
+  }
+
+  .pinterest:hover,
+  .facebook:hover,
+  .instagram:hover {
+    border: 2px solid #fb5e84;
+    fill: #fb5e84;
   }
 }
